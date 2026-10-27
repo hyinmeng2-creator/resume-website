@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="黄茵梦的个人简历官网：品牌营销、项目运营、商业管理与跨文化沟通。" />
+  <meta name="theme-color" content="#071a2f" />
+  <title>黄茵梦｜项目运营与品牌营销</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: '#071a2f', navy: '#0c3158', mist: '#eef4f8', line: '#dce6ee', cyan: '#6fa8c5' },
+          fontFamily: { sans: ['Inter', 'Noto Sans SC', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-white text-slate-800 antialiased">
+  <header id="siteHeader" class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8" aria-label="主导航">
+      <a href="#top" class="text-lg font-bold tracking-[0.18em] text-white">YM<span class="text-cyan">.</span></a>
+      <div class="hidden items-center gap-7 text-sm font-medium text-white/80 lg:flex">
+        <a class="nav-link" href="#about">关于我</a><a class="nav-link" href="#experience">经历</a>
+        <a class="nav-link" href="#projects">项目</a><a class="nav-link" href="#skills">能力</a>
+        <a class="nav-link" href="#contact">联系</a>
+      </div>
+      <button id="menuButton" class="rounded-lg p-2 text-white lg:hidden" aria-label="打开菜单" aria-expanded="false">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-width="1.8" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </nav>
+    <div id="mobileMenu" class="mx-4 hidden rounded-2xl border border-white/10 bg-ink/95 p-4 text-sm text-white shadow-2xl backdrop-blur lg:hidden">
+      <a href="#about">关于我</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#skills">能力</a><a href="#contact">联系</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero-grid relative flex min-h-screen items-center overflow-hidden bg-ink pt-24 text-white">
+      <div class="hero-glow"></div>
+      <div class="relative mx-auto grid w-full max-w-7xl gap-14 px-5 py-20 lg:grid-cols-[1.25fr_.75fr] lg:px-8">
+        <div class="reveal self-center">
+          <p class="mb-6 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em] text-cyan"><span class="h-px w-10 bg-cyan"></span>Portfolio · 2026</p>
+          <h1 class="max-w-4xl text-5xl font-semibold leading-[1.08] tracking-tight sm:text-6xl lg:text-8xl">把复杂项目，<br><span class="text-gradient">推进成确定结果。</span></h1>
+          <p class="mt-8 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">黄茵梦｜项目运营 · 品牌营销 · 商业管理</p>
+          <p class="mt-4 max-w-2xl text-base leading-8 text-slate-400">融合实体经营、客户管理与品牌全案经验，具备从需求洞察、商务沟通到资源统筹、落地复盘的完整能力。正在拓展翻译与语言技术方向，为跨文化与跨境业务建立更强连接。</p>
+          <div class="mt-10 flex flex-wrap gap-4">
+            <a href="huang-yinmeng-resume.pdf" download class="btn-primary">下载 PDF 简历 <span>↓</span></a>
+            <a href="#projects" class="btn-secondary">查看项目案例 <span>↘</span></a>
+          </div>
+        </div>
+        <aside class="reveal delay-200 self-end lg:pb-8">
+          <div class="glass-card">
+            <p class="text-xs uppercase tracking-[0.22em] text-cyan">Profile Snapshot</p>
+            <div class="mt-8 grid grid-cols-2 gap-x-5 gap-y-8">
+              <div><strong>20<span class="text-cyan">+</span></strong><span>品牌项目经验</span></div>
+              <div><strong>95<span class="text-cyan">%</span></strong><span>客户综合满意度</span></div>
+              <div><strong>800<span class="text-cyan">%</span></strong><span>代表项目 GMV 环比</span></div>
+              <div><strong>双语</strong><span>商务与跨文化沟通</span></div>
+            </div>
+            <div class="mt-9 border-t border-white/10 pt-6 text-sm leading-7 text-slate-300">求职方向：项目运营、品牌营销、客户成功、行政管理、地产及跨境业务支持</div>
+          </div>
+        </aside>
+      </div>
+      <a href="#about" class="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-[10px] uppercase tracking-[0.25em] text-white/45 md:flex">Scroll<span class="scroll-line"></span></a>
+    </section>
+
+    <section id="about" class="section-pad">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="grid gap-14 lg:grid-cols-[.72fr_1.28fr]">
+          <div class="reveal"><p class="eyebrow">01 · About</p><h2 class="section-title">经验不是边界，<br>而是迁移能力。</h2></div>
+          <div class="reveal grid gap-10 lg:grid-cols-2">
+            <div class="lg:col-span-2"><p class="lead-text">我是一名以结果为导向的跨界复合型人才，经历覆盖实体门店经营、B 端客户拓展、品牌营销全案与项目交付。目前已完成商务英语本科阶段学习，并将赴香港理工大学攻读翻译与语言技术硕士。</p></div>
+            <div><h3 class="small-title">跨界背景</h3><p class="body-text">从创业者到客户经理，持续在不同业务环境中拆解问题、整合资源并推进落地。既理解经营端的成本与回报，也能站在品牌与客户视角完成沟通协同。</p></div>
+            <div><h3 class="small-title">转型逻辑</h3><p class="body-text">以商业实践为根基，系统补充商务英语、跨文化交际与语言技术能力，形成“管理执行 + 内容运营 + 双语沟通”的复合结构。</p></div>
+            <div><h3 class="small-title">核心优势</h3><p class="body-text">擅长项目拆解、跨部门协同、供应商管理、预算与风险控制，能够快速进入业务场景，独立承接任务并对交付质量负责。</p></div>
+            <div><h3 class="small-title">工作特质</h3><p class="body-text">成熟可靠、学习敏捷、沟通清晰。面对新行业与新流程，能快速建立框架，在细节、效率与业务目标之间找到平衡。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-pad bg-mist">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal mb-14 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><p class="eyebrow">02 · Education</p><h2 class="section-title">持续进阶的学习路径</h2></div><p class="max-w-md body-text">从职业教育到本科，再到香港硕士深造，学习路径始终围绕商业沟通、语言能力与实际业务应用展开。</p></div>
+        <div class="timeline reveal">
+          <article><div class="time">2026.09 — 2027.07</div><div><span class="tag">硕士</span><h3>香港理工大学</h3><h4>翻译与语言技术</h4><p>聚焦翻译技术、跨文化传播与语言数据应用，增强海外商务资料处理、国际沟通与跨境项目支持能力。</p></div></article>
+          <article><div class="time">2024.09 — 2026.07</div><div><span class="tag">本科</span><h3>广东金融学院</h3><h4>商务英语 · 学士学位</h4><p>核心课程包括国际商务谈判、跨文化交际、商务写作与外贸函电，系统建立双语商务沟通框架。</p></div></article>
+          <article><div class="time">职业起点</div><div><span class="tag">专科阶段</span><h3>职业教育背景</h3><h4>实践导向的能力基础</h4><p>以职业技能与实际应用为导向，奠定客户服务、行政协同与业务执行基础，并在工作中持续完成能力升级。</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad bg-ink text-white">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal mb-16"><p class="eyebrow text-cyan">03 · Experience</p><h2 class="section-title text-white">商业一线的完整历练</h2></div>
+        <div class="experience-list">
+          <article class="reveal experience-item"><div class="experience-meta"><span>2023.02 — 2026.01</span><span>广州</span></div><div><p class="role-index">01 / 品牌营销与客户管理</p><h3>广州英本创意品牌营销有限公司</h3><h4>客户经理</h4><ul><li>独立跟进 20 余个品牌营销全案，从用户洞察、方案立项到供应商协调、排期交付与效果验收。</li><li>负责跨界联名商务沟通与多方协同，客户综合满意度达 95%，并沉淀稳定合作资源。</li><li>建立成交、投放、转化与 ROI 复盘机制，优化内部协作流程，获年度优秀协作奖。</li></ul></div></article>
+          <article class="reveal experience-item"><div class="experience-meta"><span>2013.09 — 2018.12</span><span>广州</span></div><div><p class="role-index">02 / 创业与门店经营</p><h3>广州鲲宁贸易</h3><h4>门店运营负责人</h4><ul><li>负责两家高端粮油门店从选址评估、成本预算、供应链搭建到营销运营的全链路筹建。</li><li>联动银行、医疗机构与工厂拓展 B 端合作，推动客户复购率提升 40%，形成稳定营收渠道。</li><li>优化加盟商库存调配与旺季履约机制，销售高峰期订单履约率稳定达 95%。</li></ul></div></article>
+          <article class="reveal experience-item"><div class="experience-meta"><span>复合能力</span><span>跨职能</span></div><div><p class="role-index">03 / 客服咨询与综合管理</p><h3>客户服务 · 行政协同 · 流程管理</h3><h4>管理型业务支持</h4><ul><li>熟悉客户需求识别、问题分级、服务跟进与关系维护，能在高频沟通场景中稳定推进问题闭环。</li><li>具备团队协同、任务分派、台账管理、费用对账与合同跟进经验，兼顾效率、细节与风险意识。</li><li>可快速适配文职、行政、客户成功、地产服务及项目支持类岗位。</li></ul></div></article>
+          <article class="reveal experience-item"><div class="experience-meta"><span>2023 — 2025</span><span>项目制</span></div><div><p class="role-index">04 / 新媒体运营项目</p><h3>内容策划 · KOC 矩阵 · 直播转化</h3><h4>品牌增长项目负责人</h4><ul><li>覆盖小红书种草、短视频内容、直播间转化与品牌视觉包装，具备从内容到交易的完整认知。</li><li>结合实时数据调整素材、节奏与人群投放，持续优化获客成本和项目投入产出。</li><li>形成美妆、酒店 IP 联名与婴童服饰等多品类项目经验。</li></ul></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal mb-14 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><p class="eyebrow">04 · Selected Work</p><h2 class="section-title">代表项目与业务成果</h2></div><p class="max-w-md body-text">每个项目都从业务问题出发，以清晰策略、协同执行和可量化结果完成闭环。</p></div>
+        <div class="project-grid">
+          <article class="project-card reveal"><div class="project-no">01</div><div class="project-label">IP 跨界营销</div><h3>喆啡酒店 × 大英博物馆<br>十周年联名</h3><p>统筹社媒种草、联名周边开发与线上互动全链路，以 IP 内容提升品牌话题度与产品价值感。</p><dl><div><dt>职责</dt><dd>跨界商务、资源统筹、全案推进</dd></div><div><dt>成果</dt><dd>门店客流与会员转化显著增长</dd></div></dl><span class="project-arrow">↗</span></article>
+          <article class="project-card featured reveal delay-100"><div class="project-no">02</div><div class="project-label">美妆增长全案</div><h3>奈小白免胶假睫毛<br>整合营销</h3><p>独立操盘品牌定位、短视频内容、小红书种草与直播转化，以精准渠道组合推动单品增长。</p><dl><div><dt>销量</dt><dd>累计 15W+ · 细分类目 TOP</dd></div><div><dt>成果</dt><dd>GMV 环比上涨 800%</dd></div></dl><span class="project-arrow">↗</span></article>
+          <article class="project-card reveal delay-200"><div class="project-no">03</div><div class="project-label">新品社媒运营</div><h3>乖奇熊生肖服饰<br>新品推广</h3><p>统筹品牌视觉、小红书 KOC 矩阵与抖音直播常态化运营，打造生肖系列爆款。</p><dl><div><dt>职责</dt><dd>内容矩阵、直播运营、人群投放</dd></div><div><dt>成果</dt><dd>上线 3 个月 GMV 同比 +260%</dd></div></dl><span class="project-arrow">↗</span></article>
+          <article class="project-card reveal"><div class="project-no">04</div><div class="project-label">门店经营与渠道</div><h3>高端粮油门店<br>B 端拓展项目</h3><p>通过社区品鉴、企业拜访与异业资源合作，建立稳定对公客户来源并优化供应链履约。</p><dl><div><dt>复购</dt><dd>整体客户复购率提升 40%</dd></div><div><dt>履约</dt><dd>销售旺季订单履约率 95%</dd></div></dl><span class="project-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad bg-mist">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal mb-14"><p class="eyebrow">05 · Capabilities</p><h2 class="section-title">可迁移的复合能力</h2></div>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><span>01</span><h3>语言与跨文化</h3><p>普通话 · 粤语 · 英语<br>商务写作 · 跨文化沟通<br>海外合作资料处理</p></div>
+          <div class="skill-card reveal"><span>02</span><h3>翻译与语言技术</h3><p>翻译技术基础<br>语言数据与术语意识<br>双语信息整理</p></div>
+          <div class="skill-card reveal"><span>03</span><h3>AI 与办公工具</h3><p>AI 内容辅助与资料研究<br>Word · Excel · PowerPoint<br>效率工具与信息管理</p></div>
+          <div class="skill-card reveal"><span>04</span><h3>品牌与运营</h3><p>品牌全案 · 新媒体运营<br>小红书 / 抖音 / 直播<br>数据复盘与 ROI 意识</p></div>
+          <div class="skill-card reveal"><span>05</span><h3>管理与行政</h3><p>项目管理 · 供应商协同<br>合同费用 · 台账流程<br>跨部门沟通与任务推进</p></div>
+          <div class="skill-card reveal"><span>06</span><h3>商业与跨境认知</h3><p>B 端拓客 · 商务谈判<br>实体经营 · 成本控制<br>跨境电商基础认知</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="credentials" class="section-pad">
+      <div class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[.72fr_1.28fr] lg:px-8">
+        <div class="reveal"><p class="eyebrow">06 · Credentials</p><h2 class="section-title">证书与资质</h2><p class="mt-6 body-text">持续以系统学习补充实践经验，为双语商务、跨境运营与综合管理岗位建立更完整的能力证明。</p></div>
+        <div class="credential-list reveal"><div><span>01</span><h3>大学英语四级 / 六级</h3><p>英语综合应用与商务沟通基础</p></div><div><span>02</span><h3>IELTS 6.0</h3><p>英语听说读写综合能力证明</p></div><div><span>03</span><h3>跨境电子商务师二级</h3><p>跨境业务、平台与流程认知</p></div><div><span>04</span><h3>商务英语学士学位</h3><p>国际商务谈判与跨文化交际训练</p></div></div>
+      </div>
+    </section>
+
+    <section class="section-pad bg-navy text-white">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal max-w-4xl"><p class="eyebrow text-cyan">07 · Positioning</p><h2 class="text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">懂经营，也懂客户；<br>能统筹，也能亲自落地。</h2></div>
+        <div class="mt-16 grid gap-8 border-t border-white/15 pt-10 md:grid-cols-3"><div class="reveal"><span class="position-no">A</span><h3>成熟商业视角</h3><p>兼具经营者与服务方经验，理解收入、成本、客户价值和长期合作之间的关系。</p></div><div class="reveal"><span class="position-no">B</span><h3>独立交付能力</h3><p>能够快速识别关键任务、建立推进路径，并对沟通、进度、细节和最终结果负责。</p></div><div class="reveal"><span class="position-no">C</span><h3>跨界成长潜力</h3><p>以语言技术与跨文化能力扩展既有商业经验，适合香港与内地多元业务环境。</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section relative overflow-hidden bg-ink py-28 text-white lg:py-36">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="reveal grid gap-12 lg:grid-cols-[1.2fr_.8fr]"><div><p class="eyebrow text-cyan">08 · Contact</p><h2 class="max-w-3xl text-5xl font-semibold leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">期待参与值得投入的工作。</h2><p class="mt-7 max-w-2xl text-lg leading-8 text-slate-400">开放香港及内地工作机会，关注项目运营、品牌营销、客户管理、行政支持、地产服务与跨境业务方向。</p></div><div class="self-end lg:pb-2"><a class="contact-link" href="mailto:gduf2025@qq.com"><span>Email</span><strong>gduf2025@qq.com</strong></a><a class="contact-link" href="tel:+8618617329980"><span>Phone / WeChat</span><strong>186 1732 9980</strong></a><a class="contact-link" href="huang-yinmeng-resume.pdf" target="_blank"><span>Resume</span><strong>查看 PDF 简历 ↗</strong></a></div></div>
+        <footer class="mt-24 flex flex-col gap-4 border-t border-white/10 pt-8 text-xs tracking-wide text-white/40 sm:flex-row sm:items-center sm:justify-between"><p>© 2026 Huang Yinmeng. All rights reserved.</p><a href="#top" class="transition hover:text-white">返回顶部 ↑</a></footer>
+      </div>
+    </section>
+  </main>
+
+  <a href="huang-yinmeng-resume.pdf" download class="floating-resume" aria-label="下载 PDF 简历"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-width="1.8" d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg><span>简历 PDF</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
